@@ -1,0 +1,5 @@
+.DS_Store
+artifacts/
+artifacts_lora/
+logs/
+outputs/
