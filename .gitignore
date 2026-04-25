@@ -1,5 +1,16 @@
 .DS_Store
-artifacts/
+
+artifacts/*
+!artifacts/*/
+artifacts/*/*
+!artifacts/*/analysis/
+artifacts/*/analysis/*
+!artifacts/*/analysis/weight_update_ranks.csv
+!artifacts/*/analysis/layer_type_summary.csv
+!artifacts/*/analysis/analysis_summary.json
+
 artifacts_lora/
 logs/
 outputs/
+initial_experiments/
+
